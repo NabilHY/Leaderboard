@@ -35,3 +35,9 @@ ul {
   list-style: none;
   padding: 10% 50% 10% 1%;
 }
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
