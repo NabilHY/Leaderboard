@@ -22,12 +22,20 @@
 ### Clone the repository
 
 ```
-git@github.com:NabilHY/Leaderboard.git
+https://github.com/NabilHY/Leaderboard.git
 ```
+
+### To run this project locally
+Run npm install / npm start
+
 
 ### Deployment
 
 - The project is deployed with Github pages.
+
+### Live Demo
+ > https://nabilhy.github.io/Leaderboard/
+
 
 
 
