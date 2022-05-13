@@ -37,7 +37,7 @@ h3 {
 
 .recent {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   gap: 25px;
@@ -91,7 +91,7 @@ textarea {
 ul {
   border: 1px solid #000;
   list-style: none;
-  padding: 3%;
+  padding: 3% 0;
   background-color: #000;
   border-radius: 10px;
   width: 100%;
@@ -113,7 +113,7 @@ form {
 
 #refresh {
   font-size: 20px;
-  padding: 5% 10%;
+  padding: 2% 5% ;
   cursor: pointer;
   color: green;
   background-color: #000;
