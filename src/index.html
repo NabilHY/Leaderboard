@@ -3,32 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
     <title>Leaderboard</title>
 </head>
 <body>
     <header>
         <h1>Leaderboard</h1>
     </header>
+    <div class="message"></div>
     <main>
         <section class="left-main">
             <div class="recent">
                 <h3>Recent scores</h3>
-                <button>Refresh</button>
+                <button id="refresh" type="button">Refresh</button>
             </div>
             <ul id="scores">
-                <li>Nabil: 100</li>
-                <li>Nabil: 100</li>
-                <li>Nabil: 100</li>
-                <li>Nabil: 100</li>
-                <li>Nabil: 100</li>
+
             </ul>
         </section>
-        <section class="inputs">
+        <section class="right-main">
             <h3>Add your score</h3>
             <form>
-                <input type="text" placeholder="Your name">
-                <input type="text" placeholder="Your score">
-                <input type = "submit" value ="Submit" />
+                <input id="player" name="name" type="text" placeholder="Your name" >
+                <input id="score" name="score" type="text" placeholder="Your score">
+                <input id="submit" type="submit" value ="Submit">
             </form>
         </section>
     </main>

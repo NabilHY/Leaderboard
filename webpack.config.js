@@ -1,5 +1,15 @@
+/* eslint-disable no-unused-vars */
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+// eslint-disable-next-line no-undef
+const productionConfig = merge([
+  {
+    output: {
+      publicPath: '/Leaderboard/',
+    },
+  },
+]);
 
 module.exports = {
   entry: './src/index.js',
